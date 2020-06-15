@@ -65,7 +65,7 @@ timer = setInterval("CountDown()",1000);
 						  <c:if test="${timu.timuLeixing=='panduan'}">判断题</c:if>
 						  <c:if test="${timu.timuLeixing=='jianda'}">简答题</c:if>
 						  ,
-						  本题${timu.timuFenshu }分
+						  本题${timu.timuFenshu }分, 正确答案为：${timu.timuDaan}
 						)
 					</td>
 				</tr>
